@@ -53,6 +53,9 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <Navbar />
+        <div className={styles.heading}>
+          <p>Most Trending Offers</p>
+        </div>
         <div className={styles.cards}>
           {topData && topData.length > 0
             ? topData.map((card, id) => (
@@ -81,34 +84,38 @@ export default function Home() {
         data &&
         data.length > 0 &&
         data != null ? (
-          <div className={styles.grid} style={{marginBottom:20+ 'rem'}}>
-            {handleSearch && handleSearch.length > 0
-              ? handleSearch.map((card, id) => (
-                <div key={id} className={styles.gridchild}>
-                  <img
-                    src={card.image_url}
-                    alt={card.store}
-                    className={styles.bgImg}
-                  />
-                  <h2>{card.store}</h2>
-                  <p className={styles.desc}>
-                    {card.offer_text}
-                    <br />
-                    {card.code != null && card.code != ""
-                      ? "use"
-                      : "get"} at{" "}
-                    <a
-                      style={{ color: "antiquewhite" }}
-                      href={card.merchant_homepage}
-                    >
-                      Here!
-                    </a>
-                  </p>
-                </div>
-              ))
-              : null}
-          </div>
+          <><div className={styles.heading}>
+              <p>Your Desired Result...</p>
+            </div><div className={styles.grid} style={{ marginBottom: 20 + 'rem' }}>
+                {handleSearch && handleSearch.length > 0
+                  ? handleSearch.map((card, id) => (
+                    <div key={id} className={styles.gridchild}>
+                      <img
+                        src={card.image_url}
+                        alt={card.store}
+                        className={styles.bgImg} />
+                      <h2>{card.store}</h2>
+                      <p className={styles.desc}>
+                        {card.offer_text}
+                        <br />
+                        {card.code != null && card.code != ""
+                          ? "use"
+                          : "get"} at{" "}
+                        <a
+                          style={{ color: "antiquewhite" }}
+                          href={card.merchant_homepage}
+                        >
+                          Here!
+                        </a>
+                      </p>
+                    </div>
+                  ))
+                  : null}
+              </div></>
         ) : null}
+        <div className={styles.heading}>
+          <p>All Active Offers</p>
+        </div>
         <div className={styles.grid}>
           {data && data.length > 0 && data != null ? (
             <>
@@ -125,7 +132,7 @@ export default function Home() {
                     <br />
                     {card.code != null && card.code != ""
                       ? "use"
-                      : "get"} at{" "}
+                      : "get"} {card.code} at{" "}
                     <a
                       style={{ color: "antiquewhite" }}
                       href={card.merchant_homepage}
@@ -140,6 +147,7 @@ export default function Home() {
             <h1>Loading Please Wait</h1>
           )}
         </div>
+        <p>Made with ❤️ by <a href="https://meertarbani.dev" target='_blank' rel="noreferrer" >Meer Tarbani</a></p>
       </main>
     </div>
   );
