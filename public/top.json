@@ -1,21 +1,21 @@
 [
     {
         "name": "Jupiter",
-        "logo": "https://offers.meertarbani.dev/assets/images/jupiter.jpeg",
+        "logo": "https://offers.meertarbani.dev/Assets/Images/jupiter.jpeg",
         "description": "Get 300₹ on making first transaction of 1000₹ or more using Jupiter Debit Card!",
         "link": "https://jupiter.co.in/",
         "code": ""
     },
     {
         "name": "Fi",
-        "logo": "https://offers.meertarbani.dev/assets/images/fi.jpeg",
+        "logo": "https://offers.meertarbani.dev/Assets/Images/fi.jpeg",
         "description": "Get Free Visa Debit Card and 150₹ on adding 3000₹ or more on your Fi bank account!",
         "link": "https://jupiter.co.in/",
         "code": ""
     },
     {
         "name": "Bewakoof",
-        "logo": "https://offers.meertarbani.dev/assets/images/bewakoof.png",
+        "logo": "https://offers.meertarbani.dev/Assets/Images/bewakoof.png",
         "description": "Get 15% off on Bewakoof using any VISA card!",
         "link": "https://bewakoof.com/",
         "code": "BKVISA15"
