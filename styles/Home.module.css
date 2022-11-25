@@ -20,6 +20,23 @@
   align-items: center;
 }
 
+.bubble{
+  width: 100%;
+  margin: 10rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bubble p{
+  color: #f25f4c;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin: 0 2rem;
+  text-transform: uppercase;
+}
+
 .heading {
   justify-content: center;
   align-items: center;
@@ -29,7 +46,7 @@
 .heading p{
   font-size: 2.7rem;
   font-weight: 600;
-  color: rgb(206, 33, 33);
+  color: #f25f4c;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -46,7 +63,7 @@
 }
 
 .searchBar{
-  margin-top: 7rem;
+  margin-top: 17rem;
   height: 50px;
   width: 50%;
   border-radius: 10px;
@@ -58,11 +75,17 @@
 }
 
 .search{
+  border: none;
+  outline: none;
   width: 100%;
   text-decoration: none;
   height: 100%;
   border-radius: 10px;
   font-size: 22px;
+}
+
+.search:focus{
+  border: 2px solid #f25f4c;
 }
 
 .grid {
@@ -90,7 +113,7 @@
 
 .grid .gridchild:nth-child(even):hover{
   cursor: pointer;
-  box-shadow: 0px 14px 14px 5px rgb(255, 200, 200);
+  box-shadow: 0px 14px 14px 1px rgb(255, 200, 200);
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
   --desc: block;
@@ -98,7 +121,7 @@
 
 .grid .gridchild:nth-child(odd):hover{
   cursor: pointer;
-  box-shadow: 0px 14px 14px 5px rgb(248, 248, 197);
+  box-shadow: 0px 14px 14px 1px rgb(248, 248, 197);
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
   --desc: block;

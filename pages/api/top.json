@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Jupiter",
+        "logo": "https://github.com/Redskull-127/super-offers/blob/main/public/Assets/Images/jupiter.jpeg?raw=true",
+        "description": "Get 300₹ on making first transaction of 1000₹ or more using Jupiter Debit Card!",
+        "link": "https://jupiter.onelink.me/RQbE/oaaac5af",
+        "code": "IXmTF0"
+    },
+    {
+        "name": "Fi",
+        "logo": "https://github.com/Redskull-127/super-offers/blob/main/public/Assets/Images/fi.jpeg?raw=true",
+        "description": "Get Free Visa Debit Card and 150₹ on adding 3000₹ or more on your Fi bank account!",
+        "link": "https://apps.fi.money/invite",
+        "code": "WNJCPQP6K7"
+    },
+    {
+        "name": "Bewakoof",
+        "logo": "https://github.com/Redskull-127/super-offers/blob/main/public/Assets/Images/bewakoof.png?raw=true",
+        "description": "Get 15% off on Bewakoof using any VISA card!",
+        "link": "https://bewakoof.com/",
+        "code": "BKVISA15"
+    }
+]
