@@ -27,7 +27,7 @@ export default function Home() {
           }
         });
 
-      fetch("top.json")
+      fetch("api/top")
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
