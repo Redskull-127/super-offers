@@ -15,7 +15,7 @@ export default function Home() {
 
   const handleFetchMemo = useMemo(() => {
     function handleFetch() {
-      fetch("api/all")
+      fetch("/api/all")
         .then((res) => res.json())
         .then((datas) => {
           console.log(datas);
@@ -27,7 +27,7 @@ export default function Home() {
           }
         });
 
-      fetch("api/top")
+      fetch("/api/topData")
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
