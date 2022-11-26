@@ -51,3 +51,19 @@
   font-size: 25px;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .child{
+    width: 250px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .child:nth-child(2){
+    margin-bottom: 20px;
+  }
+
+  .bgImg{
+    height: 200px;
+    width: 200px;
+  }
+}
