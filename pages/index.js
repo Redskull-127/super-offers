@@ -58,7 +58,12 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      
+      <Head>
+        <title>Super Rewards</title>
+        <meta name="description" content="Get trending offers and rewards" />
+        <link rel="icon" href="/Assets/Images/cyborg.gif" />
+        <meta name="keywords" content="offers, rewards, trending, super rewards, flipkart, amazon, walmart, snapdeal, firstcry, bigbasket, dunzo, swiggy, zomato, meer tarbani, meer, tarbani, developer, blinkit, groffers, tata, neu" />
+      </Head>
       <main className={styles.main}>
         <Navbar />
         <div className={styles.bubble}>
